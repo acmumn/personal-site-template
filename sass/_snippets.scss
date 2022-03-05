@@ -23,6 +23,7 @@
     animation: rainbow-gradient-bg 3s linear infinite;
     background: $gradient-rainbow;
     background-clip: $clip;
+    -webkit-background-clip: $clip;
 
     // NO discontinuities.
     background-size: 10000%;
